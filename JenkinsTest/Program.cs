@@ -8,7 +8,7 @@ namespace JenkinsTest
         static void Main(string[] args)
         {
             //test here 
-            Console.WriteLine("5");
+            Console.WriteLine("6");
         }
     }
 }
