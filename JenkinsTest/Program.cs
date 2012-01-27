@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace JenkinsTest
 {
     class Program
@@ -6,7 +8,7 @@ namespace JenkinsTest
         static void Main(string[] args)
         {
             //test here 
-            //addition 3
+            Console.WriteLine("4");
         }
     }
 }
