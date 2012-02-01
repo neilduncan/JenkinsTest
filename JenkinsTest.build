@@ -6,7 +6,7 @@
 	<target name="build">
 		<exec program="${framework::get-assembly-directory('net-4.0')}/msbuild.exe">
 			<arg value="JenkinsTest.sln" />
-			<arg value="/Configuration:Release" />
+			<arg value="/property:Configuration=Release" />
 		</exec>
 	</target>
 </project>
