@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<project name="test" default="build" basedir="." 
+	xmlns="http://nant.sf.net/release/0.91/nant.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="C:\Playground\JenkinsTest\tools\nant\schema\nant.xsd">
+	<target name="build">
+		<exec program="${framework::get-assembly-directory('net-4.0')}/msbuild.exe">
+			<arg value="JenkinsTest.sln" />
+			<arg value="/Configuration:Release" />
+		</exec>
+	</target>
+</project>
