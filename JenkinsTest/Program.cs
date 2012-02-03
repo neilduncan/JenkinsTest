@@ -9,6 +9,7 @@ namespace JenkinsTest
         {
             //test here 
             Console.WriteLine("7");
+            Console.Write("wooooah!");
         }
     }
 }
